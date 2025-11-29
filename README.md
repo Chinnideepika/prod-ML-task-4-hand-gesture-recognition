@@ -32,5 +32,9 @@ Download from Kaggle: https://www.kaggle.com/datasets/gti-upm/leapgestrecog
 ## 🛠️ Tech Stack
 Python, TensorFlow, Keras, OpenCV, NumPy, scikit-learn
 
+## 📦 Model File
+The trained model `hand_gesture_cnn.h5` is not uploaded because GitHub does not allow files larger than 25 MB.
+You can generate it by running `training_script.py` on the LeapGestRecog dataset.
+
 ## 📝 Author
 Deepika — Machine Learning Intern @ Prodigy Infotech
