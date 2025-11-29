@@ -1,2 +1,36 @@
-# prod-ML-task-4-hand-gesture-recognition
-Hand Gesture Recognition system built for Prodigy Infotech ML Task-4 using a custom CNN trained on the LeapGestRecog dataset. Includes real-time gesture detection using OpenCV. Demonstrates gesture classification, live inference, and domain-shift analysis between infrared dataset images and RGB webcam input.
+# Hand Gesture Recognition (Prodigy Infotech ML Task-4)
+
+This project focuses on building a Convolutional Neural Network (CNN) that can classify 10 different hand gestures using the **LeapGestRecog** dataset.  
+A real-time webcam demo is implemented using **OpenCV**, enabling gesture-based control.
+
+## ✨ Features
+- Trained on 20,000+ IR images
+- Classifies 10 hand gestures
+- CNN model trained from scratch (TensorFlow/Keras)
+- Real-time gesture detection using webcam
+- Thresholding + preprocessing to mimic dataset domain
+
+## 🧠 Key Learning
+While the model achieves high accuracy on test images, real-time webcam performance varies due to **domain shift**  
+(IR dataset vs RGB webcam).  
+This project strengthened understanding of:
+- Data preprocessing  
+- Domain adaptation  
+- Real-world model deployment challenges  
+
+## 📂 Files
+- `training_script.py` — CNN training code  
+- `webcam_demo.py` — Real-time gesture recognition  
+- `test_on_dataset_image.py` — Evaluate single dataset image  
+- `hand_gesture_cnn.h5` — Trained model  
+- `label_map.json` — Class index to label mapping  
+
+## 📊 Dataset
+LeapGestRecog dataset (not included due to size).  
+Download from Kaggle: https://www.kaggle.com/datasets/gti-upm/leapgestrecog
+
+## 🛠️ Tech Stack
+Python, TensorFlow, Keras, OpenCV, NumPy, scikit-learn
+
+## 📝 Author
+Deepika — Machine Learning Intern @ Prodigy Infotech
